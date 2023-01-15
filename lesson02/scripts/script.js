@@ -1,3 +1,3 @@
 alert(document.lastModified);
 let oLastModif = new Date(document.lastModified);
-document.querySelector("span").textContent = oLastModif;
+document.querySelector("#last-modified").textContent = oLastModif;
