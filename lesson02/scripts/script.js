@@ -1,3 +1,2 @@
-alert(document.lastModified);
 let oLastModif = new Date(document.lastModified);
 document.querySelector("#last-modified").textContent = oLastModif;
