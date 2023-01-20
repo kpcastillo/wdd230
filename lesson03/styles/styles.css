@@ -40,7 +40,7 @@ nav a{
     display: block;
     padding: 1em;
     text-decoration: none;
-    color: #22577A;
+    color: #EDEDED;
     font-family: 'Manrope', sans-serif;
 }
 nav a:hover{
@@ -91,7 +91,7 @@ footer{
     align-items: center;
     justify-items: center;
     background-color: #38A3A5;
-    color: #22577A;
+    color: #EDEDED;
     padding-top: 1em;
     padding-bottom: 1em;
 }
