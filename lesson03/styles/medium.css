@@ -1,11 +1,10 @@
-@media screen and (min-width: 32.5em){
+@media screen and (min-width: 800px){
     h1{
         font-size: 2rem;
     }
     header section{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        text-align: center;
+        display: flex;
+        justify-content: space-around;
     }
     nav{
         display: flex;

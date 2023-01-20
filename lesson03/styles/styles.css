@@ -42,7 +42,7 @@ nav a{
     display: block;
     padding: 1em;
     text-decoration: none;
-    color: #80ED99;
+    color: #22577A;
     font-family: 'Manrope', sans-serif;
 }
 nav a:hover{
@@ -75,7 +75,7 @@ main h2{
 }
 #decorated-text h2{
     background-color: #38A3A5;
-    color: #EDEDED;
+    color: white;
 }
 #decorated-text h3{
     background-color: #80ED99;
@@ -84,7 +84,7 @@ main h2{
 }
 #decorated-text p{
     background-color: #EDEDED;
-    color: #38A3A5;
+    color: #22577A;
     padding: 1.2em;
 }
 footer{
@@ -93,7 +93,7 @@ footer{
     align-items: center;
     justify-items: center;
     background-color: #38A3A5;
-    color: #80ED99;
+    color: #22577A;
     padding-top: 1em;
     padding-bottom: 1em;
 }
