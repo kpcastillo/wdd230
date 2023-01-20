@@ -1,9 +1,9 @@
-@media screen and (min-width: 800px){
+@media screen and (min-width: 32.5em){
     h1{
         font-size: 2rem;
     }
     header section{
-        display: flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
@@ -11,6 +11,9 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    nav a{
+        display: inline;
     }
     
 }

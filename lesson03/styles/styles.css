@@ -26,7 +26,6 @@ header section{
 header section img{
     size: 100px;
     justify-self: baseline;
-    margin-bottom: -10em;
 }
 nav{
     background-color: #38A3A5;
