@@ -1,0 +1,99 @@
+/*font-family: 'Manrope', sans-serif;
+font-family: 'Vollkorn', serif;*/
+/*blue: #22577A
+teal: 38A3A5
+green: 80ED99
+gray: EDEDED*/
+body{
+    margin: 0 auto;
+}
+h1 h2 h3{
+    font-family: 'Vollkorn', serif;
+}
+p{
+  font-family: 'Manrope', sans-serif  
+}
+header section{
+    background-color: #EDEDED;
+    color: #22577A;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /*justify-content: center;*/
+    text-align: center;
+    padding-bottom: 2em;
+}
+header section img{
+    size: 100px;
+    justify-self: baseline;
+    margin-bottom: -10em;
+}
+nav{
+    background-color: #38A3A5;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: space-around;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+nav a{
+    text-align: center;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #80ED99;
+    font-family: 'Manrope', sans-serif;
+}
+nav a:hover{
+    opacity: 70%;
+    box-shadow: #22577A 2px 5px;
+
+}
+main{
+    text-align: center;
+    
+}
+main h2{
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+.smallimg{
+    max-width: 85%;
+    padding-bottom: 2em;
+}
+#fonts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#decorated-text h1{
+    background-color: #22577A;
+    color: #EDEDED;
+    padding: 1.2em;
+    margin-top: 1em;
+}
+#decorated-text h2{
+    background-color: #38A3A5;
+    color: #EDEDED;
+}
+#decorated-text h3{
+    background-color: #80ED99;
+    color: #22577A;
+    padding: 1.2em;
+}
+#decorated-text p{
+    background-color: #EDEDED;
+    color: #38A3A5;
+    padding: 1.2em;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #38A3A5;
+    color: #80ED99;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
