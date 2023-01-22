@@ -1,4 +1,4 @@
-@media screen and (min-width: 32.5em){
+@media screen and (min-width: 1064px){
     h1{
         font-size: 2rem;
     }
@@ -8,7 +8,7 @@
         align-items: center;
     }
     nav{
-        display: flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
