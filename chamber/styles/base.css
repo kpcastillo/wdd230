@@ -15,6 +15,8 @@ header{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
     align-items: center;
+    margin-bottom: 2em;
+    font-family: 'Vollkorn', serif;
 }
 nav ul{
     list-style: none;
@@ -39,6 +41,8 @@ nav ul{
 }
 nav ul.open{
     display: block;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 #btntn span:nth-child(1){
     display: block;
@@ -76,6 +80,9 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 2em;
+    color: #22577A;
+    font-family: 'Vollkorn', serif;
 }
 footer iframe{
     width: fit-content;
