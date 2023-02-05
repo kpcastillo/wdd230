@@ -4,9 +4,6 @@ font-family: 'Vollkorn', serif;*/
 teal: 38A3A5
 green: 80ED99
 gray: EDEDED*/
-main{
-    margin: 0 auto;
-}
 header{
     background-color: #EDEDED;
     color: #22577A;
@@ -35,6 +32,10 @@ nav ul li a{
     font-size: 2rem;
     align-items: center;
     justify-content: center;
+}
+nav ul li a:hover{
+    color: #EDEDED;
+    background-color: #22577A;
 }
 nav ul{
     display: none;
@@ -86,4 +87,92 @@ footer{
 }
 footer iframe{
     width: fit-content;
+}
+main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hero-img{
+    width: 96%;
+    z-index: -1;
+    opacity: 80%;
+    border: solid 5px #22577A;
+}
+#hero-action{
+    margin-top: -7em;
+    z-index: 1;
+    color: #EDEDED;
+}
+#hero-action h3{
+    text-shadow: 4px solid black;
+    color: #EDEDED;
+    background-color: #22577A;
+}
+h3{
+    font-family: 'Vollkorn', serif
+}
+p{
+    font-family: 'Manrope', sans-serif;
+}
+.button{
+    border: solid 2px #38A3A5;
+    background-color: #80ED99;
+    text-align: center;
+}
+.button a{
+    text-decoration: none;
+    color: #22577A;
+}
+#event{
+    margin-top: 2em;
+    background-color: #22577A;
+    color: #EDEDED;
+    max-width: 97%;
+    padding: 1em;
+}
+#weather{
+    margin-top: 1em;
+    background-color: #22577A;
+    padding: 2em;
+}
+#news{
+    margin-top: 1em;
+    background-color: #22577A;
+    color: #EDEDED;
+    max-width: 97%;
+    padding: 1em;
+
+}
+#join{
+    margin-top: 1em;
+    background-color: #22577A;
+    color: #EDEDED;
+    max-width: 97%;
+    padding: 1em;
+}
+#spotlight{
+    margin-top: 1em;
+    background-color: #22577A;
+    color: #EDEDED;
+    max-width: 97%;
+    padding: 1em;
+}
+.spotlight-cards{
+    background-color: #38A3A5;
+    padding: .4em;
+    border-top: 2px solid #EDEDED;
+}
+.spotlight-cards img{
+    max-width: 50%;
+}
+.spotlight-cards:nth-child(1){
+    padding-bottom: 2em;
+    border-top: none;
+}
+.spotlight-cards:nth-child(3){
+    padding-bottom: 1.5em
 }
