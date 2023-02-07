@@ -176,3 +176,9 @@ p{
 .spotlight-cards:nth-child(3){
     padding-bottom: 1.5em
 }
+#banner{
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    color: #38A3A5;
+    padding-bottom: 1em;
+}
