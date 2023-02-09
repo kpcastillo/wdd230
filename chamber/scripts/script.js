@@ -14,14 +14,13 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 datefield.innerHTML = `<strong>${fulldate}</strong>`;
 
 let LastModif = new Date(document.lastModified);
-document.querySelector('.lastMod').textContent = LastModif;
+document.getElementsByClassName('.lastMod').textContent = LastModif;
 
 
 
-let messaje = ''
-let dayOfWeek = now.getDay
-if(dayOfWeek ===  1 || 2 ){
-    message = 'Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
+let dayOfWeek = now.getDay();
+if(dayOfWeek ===  1 || dayOfWeek === 2 ){
+    let message = 'Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
     console.log(message);
 }
 document.querySelector('#banner').innerHTML = message
