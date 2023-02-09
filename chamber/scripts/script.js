@@ -14,7 +14,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 datefield.innerHTML = `<strong>${fulldate}</strong>`;
 
 let LastModif = new Date(document.lastModified);
-document.getElementsByClassName('.lastMod').textContent = LastModif;
+document.getElementsById('last-mod').textContent = LastModif;
 
 
 
