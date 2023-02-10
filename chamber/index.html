@@ -55,9 +55,14 @@
     <section id="banner"></section>
     <main>
         <div id="hero">
-            <div">
+            <picture>
+                <source media="(min-width:800px)" srcset="images/wdd230-org1100.jpg" 3x>
+                <source media="(min-width:600px" srcset="images/wdd230-org600.jpg" 2x>
+                <img id="hero-img" src="images/wdd230-org300.jpg" alt="week 6 image" width="650" height="600">
+            </picture>
+            <!--<div>
                 <img id="hero-img" src="images/las-vegas-city.jpg" alt="City of Las Vegas at night">  
-            </div>
+            </div>-->
             <section id="hero-action">
                 <h3>Helping business grow</h3>
                 <div class="button">
