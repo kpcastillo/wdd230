@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: darkblue;
+    size: 2.5em;
+    padding-bottom: 1em;
+}
+img{
+    padding-bottom: 0.5em;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+article img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+/*img[data-src] {
+    filter: blur(0.2em);
+}*/
