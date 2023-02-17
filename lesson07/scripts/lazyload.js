@@ -1,13 +1,13 @@
-let imagesToLoad = document.querySelectorAll("img[data-src]");
+const imagesForLoading = document.querySelectorAll("img[data-src]");
 
 const loadImages = (image) => {
   image.setAttribute("src", image.getAttribute("data-src"));
   image.onload = () => {image.removeAttribute("data-src")};
 };
 
-imagesToLoad.forEach((img) => {
+/*imagesToLoad.forEach((img) => {
     loadImages(img);
-});
+});*/
 
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((items, observer) => {
@@ -19,13 +19,13 @@ if ("IntersectionObserver" in window) {
     });
     });
 
-    imagesToLoad.forEach((img) => {
+    imagesForLoading.forEach((img) => {
       observer.observe(img);
     });
 } 
 else {
-    imagesToLoad.forEach((img) => {
+    imagesForLoading.forEach((img) => {
       loadImages(img);
     });
   }
-console.log('message')
+console.log('Javascript is working.')
