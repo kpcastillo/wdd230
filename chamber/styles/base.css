@@ -92,7 +92,7 @@ footer iframe{
     height: auto;
     padding-bottom: 0.8em;
 }
-main{
+#index{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -194,4 +194,17 @@ p{
     color: #38A3A5;
     padding-bottom: 1em;
 }
-/*hovers over the images in the gallery.*/
+/*Discover*/
+#discover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.gallery:hover{
+    opacity: 75%;
+    border: #38A3A5 solid 3px;
+}
+.discoverp{
+    padding-bottom: 2em;
+}
