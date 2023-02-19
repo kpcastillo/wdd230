@@ -203,7 +203,7 @@ p{
 }
 .gallery:hover{
     opacity: 75%;
-    border: #38A3A5 solid 3px;
+    border: #38A3A5 solid 6px;
 }
 .discoverp{
     padding-bottom: 2em;
