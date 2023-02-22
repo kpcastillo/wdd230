@@ -85,9 +85,12 @@
          grid-column: 1/2;
          grid-row: 2/3;
          padding: .45em .2em;
-     }
+    }
      #weather img{
          max-width: 100%;
-     }
+    }
+    .gallery{
+        width: 800px;
+    }
 
 }

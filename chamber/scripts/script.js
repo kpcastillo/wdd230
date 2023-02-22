@@ -22,17 +22,19 @@ let dayOfWeek = now.getDay();
 if(dayOfWeek ===  1 || dayOfWeek === 2 ){
     let message = 'Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
     console.log(message);
+    document.querySelector('#banner').innerHTML = message
 }
-document.querySelector('#banner').innerHTML = message
+ 
 
-const imagesForLoading = document.querySelectorAll("img[data-src]");
+
+let loadingImg = document.querySelectorAll('img[data-src]');
 
 const loadImages = (image) => {
-  image.setAttribute("src", image.getAttribute("data-src"));
-  image.onload = () => {image.removeAttribute("data-src")};
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = () => {image.removeAttribute('data-src')};
 };
 
-if ("IntersectionObserver" in window) {
+if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
         if (item.isIntersecting) {
@@ -42,12 +44,12 @@ if ("IntersectionObserver" in window) {
     });
     });
 
-    imagesForLoading.forEach((img) => {
+    loadingImg.forEach((img) => {
       observer.observe(img);
     });
 } 
 else {
-    imagesForLoading.forEach((img) => {
+    loadingImg.forEach((img) => {
       loadImages(img);
     });
 }
