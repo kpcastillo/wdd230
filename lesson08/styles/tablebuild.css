@@ -10,11 +10,18 @@ tr:first-child th{
     padding: .6em;
 }
 tr:nth-child(2){
-	background-color: lightpink;
+	background-color: #FFB3ED;
 	color: black;
     font: 1.3em sans-serif;
     border: solid 1px lightgray;
     padding: 10px;
+}
+tr:nth-child(2) td:nth-child(1){
+	background-color: thistle;
+}
+tr:nth-child(4){
+    background-color: #FCE3F6;
+
 }
 td{
     border: solid 1px lightgray;
