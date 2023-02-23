@@ -1,0 +1,28 @@
+table{
+    border: solid 1px lightgray;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr:first-child th{
+	background-color: thistle;
+	color: black;
+    font: 2.5em sans-serif;
+    padding: .6em;
+}
+tr:nth-child(2){
+	background-color: lightpink;
+	color: black;
+    font: 1.3em sans-serif;
+    border: solid 1px lightgray;
+    padding: 10px;
+}
+td{
+    border: solid 1px lightgray;
+    font: 1.3em sans-serif;
+    padding: 10px;
+
+}
+caption{
+    caption-side: bottom;
+    font: 1em sans-serif;
+}
