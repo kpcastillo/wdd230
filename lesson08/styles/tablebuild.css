@@ -2,6 +2,7 @@ table{
     border: solid 1px lightgray;
     text-align: center;
     border-collapse: collapse;
+    margin: 0 auto;
 }
 tr:first-child th{
 	background-color: thistle;
