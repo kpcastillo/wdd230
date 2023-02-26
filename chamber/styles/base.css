@@ -134,6 +134,7 @@ p{
     border: solid 2px #38A3A5;
     background-color: #80ED99;
     text-align: center;
+    padding: .4em;
 }
 .button a{
     text-decoration: none;
@@ -210,4 +211,69 @@ p{
 }
 .gallery{
     width: 100%;
+}
+/*Join*/
+form fieldset{
+    border: #22577A solid 2px;
+    padding: 0.5em;
+}
+form legend{
+    color: #22577A;
+    /*margin: 0 1rem;*/
+    padding: 0.5em;
+}
+form label{
+    display: block;
+    padding-top: 0.8em;
+    font-family: 'Vollkorn', serif;
+}
+form .lab{
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    padding: 0.8em;
+    width: 100%;
+    max-width: 20rem;
+}
+form .radio{
+    padding: 0.5em;
+    font-family: 'Manrope', sans-serif;
+
+}
+form .radio input{
+    padding: .5em;
+}
+.membership{
+    padding-top: 0.8em;
+    font-family: 'Vollkorn', serif;
+    color: #22577A;
+}
+.buttonj{
+    border: solid 2px #38A3A5;
+    background-color: #80ED99;
+    text-align: center;
+    padding: .5em;
+    width: 98%;
+    max-width: 20rem;
+    margin: .5rem 0 2rem 1%;
+    font-family: 'Manrope', sans-serif;
+    color: #22577A;
+}
+form label input:required{
+    border-left: #22577A solid 5px;
+}
+#formdate{
+    display: none;
+}
+.titleh2{
+    text-align: center;
+    color: #22577A;
+    font-family: 'Vollkorn', serif;
+    margin: 0 auto;
+    padding: 1em;
+}
+.ty{
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    background-color: #80ED99;
 }

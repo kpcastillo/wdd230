@@ -56,7 +56,34 @@
         <span class="date"></span>
         <aside></aside>
     </header>
-    <main></main>
+    <main>
+        <section class="titleh2">
+            <h2>
+                Join Las Vegas Chamber of Commerce
+            </h2>
+        </section>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Information</legend>
+                <label>First Name*<input class="lab" type="text" name="fname" required></label>
+                <label>Last Name*<input class="lab" type="text" name="lname" required></label>
+                <label>Title<input class="lab" type="text" name="organization-title" pattern="[A-Za-z0-9-_ ]{1,7}"></label>
+                <label>Email*<input class="lab" type="email" name="email" placeholder="youremail@mail.com" required></label>
+                <label>Cell Phone<input class="lab" type="tel" name="phone" placeholder="1231231234" required></label>
+                <label>Business Name*<input class="lab" type="text" name="organization" required></label>
+                <div class="membership">Membership</div>
+                <label class="radio"><input type="radio" name="membership" value="NP">NP Membership</label>
+                <label class="radio"><input type="radio" name="membership" value="Bronze">Bronze Membership</label>
+                <label class="radio" ><input type="radio" name="membership" value="Silver">Silver Membership</label>
+                <label class="radio" ><input type="radio" name="membership" value="Gold">Gold Membership</label>
+                <label>Business Description<input class="lab" type="text" name="BusinessDescription"></label>
+                <label id="formdate">Date<input type="date" name="completedate"></label>
+            </fieldset>
+            <input class="buttonj" type="submit" value="Join">
+           
+
+        </form>
+    </main>
     <footer>
         <img class="logo" src="images/chamber-logo.png">
         <section>
