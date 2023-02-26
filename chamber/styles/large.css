@@ -92,5 +92,10 @@
     .gallery{
         width: 800px;
     }
+    #joinmain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 
 }

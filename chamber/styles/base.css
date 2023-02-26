@@ -221,6 +221,7 @@ form legend{
     color: #22577A;
     /*margin: 0 1rem;*/
     padding: 0.5em;
+    font-size: 2em;
 }
 form label{
     display: block;
@@ -276,4 +277,28 @@ form label input:required{
     padding: 1em;
     text-align: center;
     background-color: #80ED99;
+}
+table{
+    border: solid 1px #EDEDED;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+tr:first-child th{
+    background-color: #80ED99;
+    color: #22577A;
+    font: 2em sans-serif;
+    padding: .5em;
+}
+tr:nth-child(2){
+    background-color: #EDEDED;
+    color: black;
+    font: 1.3em sans-serif;
+    border: solid 1px lightgray;
+    padding: 10px;
+}
+td{
+    border: solid 1px lightgray;
+    font-family: 'Manrope', sans-serif;
+    padding: 10px;
 }
