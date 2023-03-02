@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Tilt+Prism&display=swap');
+h1{
+    color: antiquewhite;
+    background-color: #154360;
+    text-align: center;
+    padding: 1em;
+    font-family: 'tilt prism', serif;
+    font-size: 3em;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 0.2em;
+    text-align: center;
+    border: solid #154360 2px;
+}
+footer{
+    color: antiquewhite;
+    background-color: #154360;
+    text-align: center;
+    padding: 1em;
+    margin-top: .8em;
+}
+section{
+    border: solid 1px #154360;
+    color: #154360;
+    background-color: antiquewhite;
+    font-family: 'tilt neon', serif;
+}
+img{
+    width: 80%;
+}
