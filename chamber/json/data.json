@@ -1,0 +1,115 @@
+
+{
+    "companies": [
+      {
+        "name": "MGM Resorts International",
+        "description": "MGM Resorts International is an American global hospitality and entertainment company operating destination resorts in Las Vegas",
+        "address": "6770 S Edmond St, Las Vegas, NV 89118",
+        "phonenumber": "877-880-0880",
+        "website": "www.mgmresorts.com",
+        "membershiplevel": "Gold",
+        "employees": 74500,
+        "founded": "1986",
+        "image": "images/mgm-logo.png"
+      },
+      {
+        "name": "Allegiant Air",
+        "description": "Allegiant Air is an ultra low-cost U.S. carrier that operates scheduled and charter flights. It is a major air carrier, the fourteenth-largest commercial airline in North America.",
+        "address": "Summerlin, Nevada",
+        "phonenumber": "702-321-1423",
+        "website": "allegiantair.com",
+        "membershiplevel": "Silver",
+        "employees": 5000,
+        "founded": "1997",
+        "image": "images/allegiant.png"
+      },
+      {
+        "name": "International Game Technology",
+        "description": "IGT is a global leader in gaming. ",
+        "address": "6355 S Buffalo Dr, Las Vegas, NV 89113",
+        "phonenumber": "702-669-7777",
+        "website": "igt.com",
+        "membershiplevel": "Silver",
+        "employees": 12000,
+        "founded": "1990",
+        "image": "images/igt-logo.jpeg"
+      },
+      {
+        "name": "Caesars Entertainment",
+        "description": "Caesars Entertainment is one of the world's most diversified casino-entertainment providers. founded in Reno, Nevada, and based in Paradise, Nevada.",
+        "address": "3570 Las Vegas Blvd S, Las Vegas, NV 89109",
+        "phonenumber": "800-223-7277",
+        "website": "caesars.com",
+        "membershiplevel": "Gold",
+        "employees": 54000,
+        "founded": "1996",
+        "image": "images/caesars-ent.png"
+      },
+      {
+        "name": "GT Professional Services LLC",
+        "description": "We are a Masonry contractor in Las Vegas area. We work hard to give the best results while building customer relationships.",
+        "address": "7316 Stoney Shore Dr Las Vegas, NV 89128",
+        "phonenumber": "702-941-6033",
+        "website": "gtpro.vegas",
+        "membershiplevel": "Bronze",
+        "employees": 12,
+        "founded": "2019",
+        "image": "images/gt-logo800.PNG"
+      },
+      {
+        "name": "Las Vegas Sands",
+        "description": "Las Vegas Sands Corporation is the world leader in developing and operating international, world-class integrated resorts.",
+        "address": " 3883 Howard Hughes Pkwy, Las Vegas, NV 89169",
+        "phonenumber": "(702) 414-1000",
+        "website": "sands.com",
+        "membershiplevel": "Gold",
+        "employees": 44500,
+        "founded": "1990",
+        "image": "images/sands.png"
+      },
+      {
+        "name": "Scientific Games Corporation",
+        "description": "Exciting game entertainment experiences, cutting edge technologies, and trailblazing retail and digital solutions. ",
+        "address": "6601 Bermuda Rd, Las Vegas, NV 89119",
+        "phonenumber": "(702) 584-7700",
+        "website": "https://www.scientificgames.com",
+        "membershiplevel": "Bronze",
+        "employees": 9000,
+        "founded": "1973",
+        "image": "images/sg-logo.png"
+      },
+      {
+        "name": "Station Casinos LLC",
+        "description": "Station Casinos LLC is an American hotel and casino company based in Las Vegas suburb of Summerlin South, Nevada.",
+        "address": "Las Vegas, NV",
+        "phonenumber": "702-862-3154",
+        "website": "stationcasinos.com",
+        "membershiplevel": "Bronze",
+        "employees": 11000,
+        "founded": "1975",
+        "image": "images/station-casinos.png"
+      },
+      {
+        "name": "Wynn Resort",
+        "description": "Developer and operator of high-end hotels and casinos.",
+        "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109",
+        "phonenumber": "702-770-7000",
+        "website": "wynnlasvegas.com",
+        "membershiplevel": "Silver",
+        "employees": 31000,
+        "founded": "2002",
+        "image": "images/wynn.png"
+      },
+      {
+        "name": "Novotech Corp",
+        "description": "Engineering services",
+        "address": "2119 Merganser Ct Las Vegas NV 89029",
+        "phonenumber": "702-230-1695",
+        "website": null,
+        "membershiplevel": "Bronze",
+        "employees": 15,
+        "founded": "2015",
+        "image": "images/"
+      }
+    ]
+}
