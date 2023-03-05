@@ -302,3 +302,15 @@ td{
     font-family: 'Manrope', sans-serif;
     padding: 10px;
 }
+
+/*Directory*/
+#business-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 0.2em;
+    text-align: center;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+}
