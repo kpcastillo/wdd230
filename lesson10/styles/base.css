@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+header{
+    background-color: #530046;
+    color: white;
+    font-family: "poppins: wght@500" , "Helvetica Neue", Helvetica, sans-serif;
+    padding: 1em;
+    text-align: center;
+}
+main{
+    text-align: center;
+    font-family: "poppins: wght@100" , "Helvetica Neue", Helvetica, sans-serif;
+    color: #530046;
+    padding: 1em;
+}
+footer{
+    background-color: #530046;
+    color: white;
+    font-family: "poppins: wght@500" , "Helvetica Neue", Helvetica, sans-serif;
+    padding: 1em;
+    text-align: center;
+}
