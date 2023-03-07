@@ -1,7 +1,7 @@
 const url = "https://kpcastillo.github.io/wdd230/chamber/json/data.json"
 
 const output = function(businessList){
-  businessList.forEach(business => {
+  businessList.companies.forEach(business => {
     let section = document.createElement('section')
     let name = document.createElement('h3')
     name.innerHTML = business.name
@@ -15,11 +15,12 @@ const output = function(businessList){
     website.innerHTML = business.website
     let membershiplevel = document.createElement('p')
     membershiplevel.innerHTML = business.membershiplevel
+    let logo = document.createElement('img');
 
-    portrait.setAttribute('src', business.imageurl);
-    portrait.setAttribute('alt', `Portait of ${business.name}`);
-    portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('width', '450');
+    logo.setAttribute('src', business.imageurl);
+    logo.setAttribute('alt', `Portait of ${business.name}`);
+    logo.setAttribute('loading', 'lazy');
+    logo.setAttribute('width', '450');
 
     section.appendChild(name);
     section.appendChild(description)
@@ -27,7 +28,7 @@ const output = function(businessList){
     section.appendChild(phonenumber);
     section.appendChild(website)
     section.appendChild(membershiplevel);
-    section.appendChild(portrait);
+    section.appendChild(logo);
     document.querySelector('#business-cards').append(section);
     })
 }; 

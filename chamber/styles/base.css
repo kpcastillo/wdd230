@@ -306,11 +306,23 @@ td{
 /*Directory*/
 #business-cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     grid-gap: 0.2em;
     text-align: center;
+    color: #EDEDED;
+}
+#business-cards section{
+    margin: #ededed solid 2px;
+    background-color: #22577A;
+    padding: 0.5em;
 }
 #list{
     display: flex;
     flex-direction: column;
+}
+#dir-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    justify-content: center;
 }
