@@ -4,7 +4,8 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const coordinates ='http://api.openweathermap.org/geo/1.0/zip?zip=89143,US&appid=55079db1c440a3aa70df7a9d3c6266fb';
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=36.175&lon=-115.1372&appid=55079db1c440a3aa70df7a9d3c6266fb'
+//const url = 'https://api.openweathermap.org/data/2.5/weather?lat=36.175&lon=-115.1372&appid=55079db1c440a3aa70df7a9d3c6266fb'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=LasVegas&units=imperial&appid=55079db1c440a3aa70df7a9d3c6266fb'
 
 async function coordinatesFetch(){
     try{
