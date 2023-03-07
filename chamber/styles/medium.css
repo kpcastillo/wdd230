@@ -72,9 +72,9 @@
         grid-row: 5/6;
         margin-top: 0;
     }
-    #event p:nth-child(2){
+    /*#event p:nth-child(2){
         display: none;
-    }
+    }*/
     #weather{
         grid-column: 2/3;
         grid-row: 5/6;

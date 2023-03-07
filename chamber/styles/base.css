@@ -119,10 +119,12 @@ footer iframe{
     text-shadow: 4px solid black;
     color: #EDEDED;
     background-color: #22577A;
+    text-align: center;
 }
 #hero{
     width: 98.5%;
     justify-content: center;
+    
 }
 h3{
     font-family: 'Vollkorn', serif
@@ -151,6 +153,7 @@ p{
     margin-top: 1em;
     background-color: #22577A;
     padding: 2em;
+    color: #EDEDED;
 }
 #news{
     margin-top: 1em;

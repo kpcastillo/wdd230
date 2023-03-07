@@ -56,9 +56,9 @@
     <main id="index">
         <div id="hero">
             <picture>
-                <source media="(min-width:800px)" srcset="images/wdd230-org1100.jpg" 3x>
-                <source media="(min-width:600px" srcset="images/wdd230-org600.jpg" 2x>
-                <img id="hero-img" src="images/wdd230-org300.jpg" alt="week 6 image" width="650" height="600">
+                <source media="(min-width:800px)" srcset="images/strat-lg.jpg" 3x>
+                <source media="(min-width:600px" srcset="images/strat-med.jpg" 2x>
+                <img id="hero-img" src="images/strat-small.jpg" alt="Las Vegas" width="650" height="600">
             </picture>
             <!--<div>
                 <img id="hero-img" src="images/las-vegas-city.jpg" alt="City of Las Vegas at night">  
@@ -66,7 +66,7 @@
             <section id="hero-action">
                 <h3>Helping business grow</h3>
                 <div class="button">
-                    <a href="">Contact Us!</a>
+                    <a href="discover.html">Discover Las Vegas Chamber!</a>
                 </div>
             </section>
         </div>      
@@ -82,12 +82,15 @@
             </p>
         </section>
         <div id="weather">
-            <!--<a target="_blank" href="https://www.booked.net/weather/las-vegas-636"><img src="https://w.bookcdn.com/weather/picture/1_636_0_1_137AE9_160_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=32520&domid=w209&anc_id=53700"  alt="booked.net"/></a>-->
-            <a target="_blank" href="https://www.booked.net/weather/las-vegas-636"><img src="https://w.bookcdn.com/weather/picture/7_636_0_1_137AE9_250_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=32520&domid=w209&anc_id=2235"  alt="booked.net"/></a>
-            <div>
-                <h1>50°F</h1>
-                <h2>10 mph</h2>
-            </div>
+            <h4> The current temperature in Las Vegas is : <span id="current-temp"></span> &deg;F</h4>
+            <h4>Current conditions</h4>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+            <p>Wind speed: <span id="wind-speed"></span>m/h</p>
+            <p>Air temperature: <span id="air-temp"></span>&deg;F</p>
+
             <span id="windchill"></span>
         </div>
         <section id="news">
@@ -103,7 +106,7 @@
                 The Chamber is proud to connect you to hundreds of employers across the Valley.
             </p>
             <div class="button">
-                <a href="">Join the chamber!</a>
+                <a href="join.html">Join the chamber!</a>
             </div>
         </section>
         <section id="spotlight">
@@ -160,6 +163,7 @@
         </section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412508.1861388202!2d-115.4551935417446!3d36.12467374886681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1674846537711!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div>
+            <p>Weather Credits to https://openweathermap.org/city/5506956</p>
             <p> &copy; 2023 |  Karen I Paz Castillo  |  Wdd 230 - Winter 2023 </p>
             <span id="last-mod"></span>
         </div>
