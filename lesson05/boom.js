@@ -4,23 +4,25 @@ const list = document.querySelector('#list')
 
 button.addEventListener('click', function() { 
     const newItem = input.value
-    input.value = '';
+    if(newItem != ''){
+        input.value = '';
 
-    const liElement = document.createElement('li');
+        const liElement = document.createElement('li');
 
-    const deleteBtn = document.createElement('button');
+        const deleteBtn = document.createElement('button');
 
-    liElement.textContent = newItem;
-    deleteBtn.textContent = 'X';
+        liElement.textContent = newItem;
+        deleteBtn.textContent = 'X';
 
-    liElement.appendChild(deleteBtn);
-    list.appendChild(liElement);
+        liElement.appendChild(deleteBtn);
+        list.appendChild(liElement);
 
-    deleteBtn.addEventListener('click', () => {
+     deleteBtn.addEventListener('click', () => {
         list.removeChild(liElement);
-    });
+        });
 
-    input.focus();
+        input.focus();
+    }
     
 
 });
