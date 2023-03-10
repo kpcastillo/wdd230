@@ -37,10 +37,9 @@ const array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const initialValue = 0;
 const sumWithInitial = array2.reduce(
   (accumulator, currentValue) => accumulator + currentValue,
-  initialValue
+  initialValue,
 );
 // Expected output: 55
-
 //console.log(sumWithInitial);
 
 
