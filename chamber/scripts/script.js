@@ -23,12 +23,9 @@ document.querySelector('#last-mod').textContent = LastModif;
 let dayOfWeek = now.getDay();
 if(dayOfWeek ===  1 || dayOfWeek === 2 ){
     message = 'Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
-    console.log(message);
-   
+    let banner = document.querySelector('#banner')
+    banner = message
 }
-let banner = document.querySelector('#banner')
-banner = message
- 
 
 //Lazy load images
 let loadingImg = document.querySelectorAll('img[data-src]');
@@ -79,7 +76,6 @@ const lastVisit = document.querySelector("#last-visit");
 let visit = window.localStorage.getItem("visits-ls")
 
 let lastVisitDay = {visit, timestamp: new Date()}
-console.log(lastVisitDay, "Last visot date")
 lastVisit.innerHTML = lastVisitDay.timestamp
 
 //Display time in days from last visit
