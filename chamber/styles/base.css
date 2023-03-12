@@ -116,7 +116,7 @@ footer iframe{
     width: 100%;
 }
 #hero-action h3{
-    text-shadow: 4px solid black;
+    text-shadow: 4px black;
     color: #EDEDED;
     background-color: #22577A;
     text-align: center;
@@ -173,7 +173,7 @@ p{
 #spotlight{
     margin-top: 1em;
     background-color: #22577A;
-    color: #EDEDED;
+    color: white;
     max-width: 97%;
     padding: 1em;
 }
@@ -318,7 +318,7 @@ td{
     color: #EDEDED;
 }
 #business-cards section{
-    margin: #ededed solid 2px;
+    margin: #EDEDED solid 2px;
     background-color: #22577A;
     padding: 0.5em;
 }

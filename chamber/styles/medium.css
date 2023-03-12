@@ -15,7 +15,7 @@
    footer img{
        justify-content: right;
        justify-self: end;
-       width: 1fr;
+       width: 100%;
    }
    footer div{
        grid-column-start: 1;
@@ -26,7 +26,7 @@
    #index{
        display: grid;
        grid-template-columns: 2fr 1fr;
-       grid-template-rows: repeat(5 1fr);
+      /* grid-template-rows: repeat(5, 1fr);*/
        grid-gap: .3em;
    }
    #hero{
