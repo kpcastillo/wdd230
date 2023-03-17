@@ -10,7 +10,7 @@
         "membershiplevel": "Gold",
         "employees": 74500,
         "founded": "1986",
-        "image": "images/mgm-logo.png"
+        "image": "https://kpcastillo.github.io/wdd230/chamber/images/mgm-logo.png"
       },
       {
         "name": "Allegiant Air",
