@@ -17,7 +17,7 @@ const output = function(businessList){
     membershiplevel.innerHTML = business.membershiplevel
     let logo = document.createElement('img');
 
-    logo.setAttribute('src', business.imageurl);
+    logo.setAttribute('src', business.image);
     logo.setAttribute('alt', `Portait of ${business.name}`);
     logo.setAttribute('loading', 'lazy');
     logo.setAttribute('width', '450');

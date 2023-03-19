@@ -96,4 +96,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .contact-main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+   }
+   .contact-s h2{
+       padding: 1em;
+   }
+   .contact-s h4{
+        padding-top: 1em;
+    }
+    .contact-img{
+        align-self: center;
+    }
+
+
 }

@@ -332,3 +332,17 @@ td{
     margin: 1em;
     justify-content: center;
 }
+/*Contact*/
+.contact-img img{
+    width: 100%;
+}
+.contact-main{
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #38A3A5;
+}
+.lv-map{
+    width: 60%;
+}
