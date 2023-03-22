@@ -99,17 +99,6 @@
         "employees": 31000,
         "founded": "2002",
         "image": "images/wynn.png"
-      },
-      {
-        "name": "Novotech Corp",
-        "description": "Engineering services",
-        "address": "2119 Merganser Ct Las Vegas NV 89029",
-        "phonenumber": "702-230-1695",
-        "website": null,
-        "membershiplevel": "Bronze",
-        "employees": 15,
-        "founded": "2015",
-        "image": "images/novotec.png"
       }
     ]
 }

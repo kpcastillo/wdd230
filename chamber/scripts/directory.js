@@ -20,7 +20,7 @@ const output = function(businessList){
     logo.setAttribute('src', business.image);
     logo.setAttribute('alt', `Portait of ${business.name}`);
     logo.setAttribute('loading', 'lazy');
-    logo.setAttribute('width', '450');
+    logo.setAttribute('width', '400');
 
     section.appendChild(name);
     section.appendChild(description)
