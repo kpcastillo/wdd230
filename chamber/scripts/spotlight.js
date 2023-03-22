@@ -25,9 +25,8 @@ async function getBusiness(url){
       if(response.ok){
         let businessData = await response.json()
         businessList = businessData
+        return businessList
     }
-    
-    
 }
 
 const get_random = function(businessList){
@@ -35,12 +34,12 @@ const get_random = function(businessList){
     businessList.companies.forEach(business => {
         if (business.membership == "Gold"){
             randomList.push(business)
-            const random = randomList[Math.floor(Math.random() * randomList.length)];
+           // const random = randomList[Math.floor(Math.random() * randomList.length)];
+            const random = Math.floor(Math.random() * randomList.length);
             output(random)
         }
     })
 };
 const url = "https://kpcastillo.github.io/wdd230/chamber/json/data.json"
 const businessList = getBusiness(url)
-get_random(businessList)
-    
+get_random(businessList)   
