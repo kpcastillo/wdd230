@@ -1,0 +1,72 @@
+/* Dark Green 3В4422 
+Light Green C6D175
+Beige FEFAEO
+Brown DAA373 */
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:wght@200&display=swap');
+header{
+    background-color: #DAA373;
+    color: #FEFAE0;
+    text-align: center;
+    padding: 1rem;
+    font-family: "Delicious Handrawn";
+    font-size: 2.8rem;
+}
+main{
+    margin: 0 auto;
+    text-align: center;
+    color: #3B4422;
+    width: 80%;
+}
+footer{
+    background-color: #DAA373;
+    color: #FEFAE0;
+    text-align: center;
+    padding: 1rem;
+}
+h2{
+    padding-top: 3rem;
+    font-family: "Delicious Handrawn";
+    font-size: 2rem;
+}
+p{
+    font-size: 1.4rem;
+    font-family: Montserrat;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: "Delicious Handrawn";
+    font-size: 2.3rem;
+}
+h3{
+    font-family: "Delicious Handrawn";
+    font-size: 1.8rem;
+}
+/*#fonts h1, h3, p{
+    padding-top: 1.5em;
+}*/
+#decorated-text h1{
+    margin-top: 1.5em;
+    background-color: #DAA373;
+    padding: 1em;
+}
+#decorated-text h2{
+    margin-top: 1.5em;
+    background-color: #C6D175;
+    padding: 1em;
+}
+#decorated-text h3{
+    margin-top: 1.5em;
+    background-color: #FEFAE0;
+    padding: 1em;
+}
+#decorated-text p{
+    margin-top: 1.5em;
+    background-color: #3B4422;
+    padding: 1em;
+    color: #FEFAE0;
+}
+.txt{
+    margin-top: 2em;
+}

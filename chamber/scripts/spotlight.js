@@ -40,6 +40,6 @@ const get_random = function(businessList){
         }
     })
 };
-const url = "https://kpcastillo.github.io/wdd230/chamber/json/data.json"
+//const url = "https://kpcastillo.github.io/wdd230/chamber/json/data.json"
 const businessList = getBusiness(url)
 get_random(businessList)   
