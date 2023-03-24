@@ -5,27 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <!-- images of fruit and produce 
         including specialty fruit drinks that are ready to serve and made fresh.Lazy loading-->
     <header>
         <!--nav-->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="fresh.html">Fresh</a>
+              <a href="aboutus.html">About</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <a href="index.html">
+            <img class="logo" src="images/bf-logo.png" alt="Logo image">
+        </a>
     </header>
     <main>
-        <!--Summary information about any coastal area or areas in the southern California coast of your choosing.
-    A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
-    Social media links (at least three) (no account necessary).
-    The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/pitaya.jpg" style="width:100%" alt="Hero Image">
+                <div class="text">Bountiful Foods</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/watermelon.jpg" style="width:100%" alt="Kid eating watermelon">
+                <div class="text">Taste sutainable</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/tree.jpg" style="width:100%" alt="Tree">
+                <div class="text">Experience Fresh</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        <section id="info">
+            <!--Summary information about 
+                any coastal area or areas in the southern California coast of your choosing.-->
+            <h2>Southern California coast</h2>
+            <p>In Southern California, the counties of San Diego, Orange, and Los Angeles 
+                are synonymous with the sun. It has incredible and stunning sandy beaches for 
+                just about any beach activity: Surfing,  beach volleyball, camping, scuba diving,
+                 tide-pooling, people-watching, dog-walking, swimming, and just lying around sunbathing. 
+                 You'll find comfy hotels, tasty restaurants, and many unique things to do near the beaches. 
+                 The Southern California Coast is a beautiful place to live and an incredible vacation destination for those seeking sun and fun. 
+                 As you enjoy the sun, visit one of our locations for a tasty hydrating drink</p>
+        </section>
+        <section class="menu">
+            <h3>Drink Menu</h3>
+            <img>
+        </section>
+        <section id="action">
+            <!--A call to action to make your own fruit drink mix. This link can link to the Fresh page.-->
+            <h2>Make your own mix!</h2>
+            <button></button>
+
+        </section>
+        <div id="orders">
+              <!--Include an information card about the total number of specialty drinks that the 
+    current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (in their browser).-->
+            <h3>Previous Orders</h3>
+            <span></span>
+        </div>
+        <div id="weather">
+            <!--The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
     the current temperature,
     the condition description,
     the humidity, and
-    a three(3) day temperature forecast.
-    Include an information card about the total number of specialty drinks that the 
-    current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (in their browser).-->
+    a three(3) day temperature forecast.-->
+        </div>
+        <section class="contact">
+            <!--business contact information-->
+            <h3>Contact us</h3>
+        </section>
     </main>
     <footer>
-        <!--business contact information-->
+        <div class="social">
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="images/li.png" alt="Linked In">
+            </a>
     </footer>
+    <!--Social media links (at least three) (no account necessary).-->
+    <script src="scripts/script.js"></script>
+    <script src="scripts/fresh.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

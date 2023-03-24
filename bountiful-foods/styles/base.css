@@ -7,4 +7,163 @@ div {
   transition-timing-function: linear;
   transition-delay: 1s;
 }*/
+/* Dark Green 3В4422 
+Light Green C6D175
+Beige FEFAEO
+Brown DAA373 */
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:wght@200&display=swap');
+/* Header */
+header{
+  background-color: #DAA373;
+  color: #FEFAE0;
+  display: flex;
+  padding-top: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Monserrat: wght@200", arial;
+}
+.logo{
+  width: 6em;
+  justify-items: right;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(59,68,34);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #C6D175;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #FEFAE0;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+/* Main */
+/* Hero Slideshow */
+body {
+  font-family: Monserrat, arial;
+  margin:0
+}
+.mySlides {
+  display: none
+}
+img {
+  vertical-align: middle;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #DAA373;
+  font-weight: bold;
+  font-size: 2em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(59,68,34,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #DAA373;
+  text-shadow: #3B4422 3px 3px;
+  font-size: 2.5em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: "Monserrat: wght@200", arial;
+}
+.numbertext {
+  color: #DAA373;
+  text-shadow: #3B4422 1px 1px;
+  font-size: 1em;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #DAA373;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #3B4422;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+h2, h3{
+  font-family: 'Delicious Handrawn', sans-serif;
+}
+/*Info*/
+#info{
+  background-color: #FEFAE0;
+  padding: 1em;
+}
+#info h2{
+  color: #3B4422;
+  font-size: 2.5em;
+}
+#info p{
+  color: #3B4422;
+  font-family: "Monserrat:wght@200", arial;
+  padding: 0.5em;
+}
+/* Footer */
+footer{
+  background-color: #DAA373;
+  display: flex;
+  justify-content: center;
+}
