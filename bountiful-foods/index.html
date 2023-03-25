@@ -71,33 +71,65 @@
                  The Southern California Coast is a beautiful place to live and an incredible vacation destination for those seeking sun and fun. 
                  As you enjoy the sun, visit one of our locations for a tasty hydrating drink</p>
         </section>
-        <section class="menu">
-            <h3>Drink Menu</h3>
-            <img>
-        </section>
-        <section id="action">
-            <!--A call to action to make your own fruit drink mix. This link can link to the Fresh page.-->
-            <h2>Make your own mix!</h2>
-            <button></button>
-
-        </section>
-        <div id="orders">
-              <!--Include an information card about the total number of specialty drinks that the 
-    current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (in their browser).-->
-            <h3>Previous Orders</h3>
-            <span></span>
+        <div id="home-grid">
+            <section class="menu">
+                <img src="images/menu.png" alt="Bountiful foods drink menu" loading="lazy">
+            </section>
+            <section id="action">
+                <!--A call to action to make your own fruit drink mix. This link can link to the Fresh page.-->
+                <h2>Make your own mix!</h2>
+                <div class="button">
+                    <a href="fresh.html">Mix Now</a>
+                </div>
+            </section>
+            <div id="orders">
+                <!--Include an information card about the total number of specialty drinks that the 
+                current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (in their browser).-->
+                <h3>Previous Orders</h3>
+                <span></span>
+            </div>
+            <div id="weather">
+                <!--The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
+                the current temperature,
+                the condition description,
+                the humidity, and
+                a three(3) day temperature forecast.-->
+                <h3>Carlsbad Weather</h3>
+                <p>Current Temperature <span id="current-temp"></span> &deg;F</p>
+                <p>Conditions <span id="current-cond"></span></p>
+                <p>Humidity <span id="humidity"></span></p>
+                <h4>3-Day Forecast</h4>
+                <span id="forecast"></span>
+            </div>
+            <section class="contact">
+                <div class="bg-img">
+                    <h3>Contact us</h3>
+                    <p>Main store : 4566 Pacific Drive Carlsbad, CA 90210</p>
+                    <p>Phone : 909-232-1667</p>
+                    <p>Or visit one of our trucks.</p>
+                </div>
+                <div id="trucks">
+                    <div class="truck-cards">
+                        <img class="trucks-img" src="images/carlsbad.png" alt="Carlsbad location map">
+                        <p>5577 Mergan Ct</p>
+                        <p>Carlsbad, Ca 90120</p>
+                        <p>909-432-1823</p>
+                    </div>
+                    <div class="truck-cards">
+                        <img class="trucks-img" src="images/huntington.png" alt="Huntington location map">
+                        <p>123 Beach Dr </p>
+                        <p>Huntington, Ca 99020</p>
+                        <p>909-432-1824</p>
+                    </div>
+                    <div class="truck-cards">
+                        <img class="trucks-img" src="images/laguna.png" alt="Lagunalocation map">
+                        <p>665 Laguna Dr </p>
+                        <p>Laguna Beach, Ca 93406</p>
+                        <p>909-432-1825</p>
+                    </div>
+                </div>   
+            </section>
         </div>
-        <div id="weather">
-            <!--The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
-    the current temperature,
-    the condition description,
-    the humidity, and
-    a three(3) day temperature forecast.-->
-        </div>
-        <section class="contact">
-            <!--business contact information-->
-            <h3>Contact us</h3>
-        </section>
     </main>
     <footer>
         <div class="social">
@@ -111,7 +143,6 @@
                 <img src="images/li.png" alt="Linked In">
             </a>
     </footer>
-    <!--Social media links (at least three) (no account necessary).-->
     <script src="scripts/script.js"></script>
     <script src="scripts/fresh.js"></script>
     <script src="scripts/weather.js"></script>
