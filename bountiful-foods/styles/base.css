@@ -213,6 +213,8 @@ h4{
 }
 .bg-img{
   background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 2em;
   text-align: end;
   color: #3B4422;
