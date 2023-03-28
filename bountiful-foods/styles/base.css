@@ -203,6 +203,7 @@ h2, h3{
   grid-column: 1/5;
   grid-row: 3/4;
   color: #FEFAE0;
+  padding:0.75em 1.5em;
 }
 h4{
   font-family: 'Delicious Handrawn';
