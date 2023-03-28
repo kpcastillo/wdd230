@@ -244,9 +244,33 @@ h4{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+#about-main{
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  padding: 4em 2em;
+  background-color: #C6D175;
+}
+#about-main section{
+  padding: 2em;
+  color: #3B4422;
+}
+#about-main :nth-child(2){
+  text-align: left; 
+}
+#about-main :nth-child(3){
+  text-align: right; 
+}
 /* Footer */
 footer{
   background-color: #DAA373;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  font-family: Monserrat, arial;
+  font-weight: 200;
+  padding: 0.7em 0.2em ;
+}
+.social{
+  margin: 0 auto;
 }

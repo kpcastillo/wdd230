@@ -5,15 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
-    <header></header>
-    <main>
-        <!--provides historical information about the company and area plus contact information, and a Google Map and other relevant content.
-    If necessary, include a resource/attribution page that references outside content as a link in the footer. 
-    This supplement page does not need to be styled.
-    Include the last modified date of the page in the footer using JavaScript.-->
+    <header>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="index.html">Home</a>
+              <a href="fresh.html">Fresh</a>
+              <a href="aboutus.html">About</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <a href="index.html">
+            <img class="logo" src="images/bf-logo.png" alt="Logo image">
+        </a>
+    </header>
+    <main id="about-main">
+    <h2>About us</h2>
+    <section>
+        <h3>Who we are</h3>
+        <p>Bountiful Foods is small business specializing in organic, locally grown foods. 
+            We are physically located in Carlsbad, California, however, we have many food trucks that 
+            cover the coastal area from Los Angeles to San Diego. Our company sells fruits and produce 
+            directly from the farmers in the area, but also uses some national and international suppliers. 
+            We are an owner-operated company that caters to walk in traffic at our storefront in Carlsbad and, 
+            of course, our food trucks. 
+            We deliver and manage those orders on the phone and via this website.</p>
+    </section>
+    <section>
+        <h3>Our Mission</h3>
+        <p>Our mission is to provide fresh and healthy food options, including organic, 
+            made to order, fruit drinks and fruit bags, to the local population and to tourists 
+            visiting the coastal areas.</p>
+    </section>
+    <section>
+        <h4>We are happy to bring you closer to healthy organic, quality, locally grown, and delicious food choices.</h4>
+        <div class="button">
+            <a href="contact.html">Conact Us</a>
+        </div>
+    </section>
     </main>
-    <footer></footer>
+    <footer>
+        <span id="last-modified">Last Modified</span>
+        <div class="social">
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="images/li.png" alt="Linked In">
+            </a>
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

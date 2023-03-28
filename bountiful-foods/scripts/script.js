@@ -34,3 +34,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+//Last modified
+let modDate = new Date (document.lastModified)
+document.querySelector('#last-modified').textContent = modDate

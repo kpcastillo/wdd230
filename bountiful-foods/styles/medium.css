@@ -10,5 +10,7 @@
         grid-column: 3/5;
         grid-row: 3/4;
     }
-    
+    #about-main h4{
+        font-size: 5em;
+    }
 }
