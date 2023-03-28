@@ -184,6 +184,8 @@ h2, h3{
   background-color: #FEFAE0;
   border: #DAA373 2px solid;
   border-radius: 10%;
+  max-width: 20rem;
+  margin: .5rem 0 2rem 1%;
 }
 .button a{
   text-decoration: none;
@@ -253,7 +255,7 @@ h4{
   background-color: #C6D175;
 }
 #about-main section{
-  padding: 2em;
+  padding: 2em 5em;
   color: #3B4422;
 }
 #about-main :nth-child(2){
@@ -261,6 +263,43 @@ h4{
 }
 #about-main :nth-child(3){
   text-align: right; 
+}
+/*Fresh*/
+.form-image{
+  background-image: url(../images/form-img.jpg);
+  padding: 2em;
+  background-size: cover;
+  background-position: center;
+}
+form{
+  background-color: #C6D175;
+  width: 50%;
+  justify-content: end;
+  font-family: Monserrat, arial;
+  color: #3B4422;
+}
+form fieldset{
+  border: #DAA373 solid 2px;
+  padding: 0.5em;
+}
+form legend{
+  color: #3B4422;
+  padding: 0.5em;
+  font-size: 2em;
+  font-family: 'Delicious Handrawn', sans-serif;
+}
+form label{
+  display: block;
+  padding-top: 0.8em;
+}
+form .label{
+  display: block;
+  padding: 0.8em;
+  width: 100%;
+  max-width: 20rem;
+}
+form label input:required{
+  border-left: #3B4422 solid 5px;
 }
 /* Footer */
 footer{

@@ -26,12 +26,7 @@
         </a>
     </header>
     <main>
-        <!--form that allows the user to build their own specialty drink.
-    The form requires the following items from the user:
-    first name,
-    email,
-    phone number,
-    three (3) select element inputs that are populated with the available fruit to put into a drink.
+        <!--three (3) select element inputs that are populated with the available fruit to put into a drink.
     Populate all three select elements with all of the available fruits.
     Available fruit options must only come from this JSON data source for full credit consideration: Fruit Data Links to an external site.
     and, include an area that allows them to add special instructions, if needed.
@@ -39,6 +34,19 @@
     the input values of the order (7 inputs = first name, email, phone, three selected fruits, and special instructions),
     the order date, and
     the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three fruit choices selected on the form. The data source provides that information per fruit.-->
+    <div class="form-image">
+        <form method="get" action="">
+            <fieldset>
+                <legend>Make Your Drink Now</legend>
+                <label>First Name*<input class="label" type="text" name="fname" required></label>
+                <label>Email*<input class="label" type="email" name="email" placeholder="youremail@mail.com" required></label>
+                <label>Cell Phone<input class="label" type="tel" name="phone" placeholder="1231231234"></label>
+                <label>Special Instructions<input class="label" type="text" name="instructios"></label>
+                <label id="formdate">Date<input type="date" name="completedate"></label>
+            </fieldset>
+            <input type="submit" class="button" value="Order">
+        </form>
+    </div>
     </main>
     <footer>
         <div class="social">
