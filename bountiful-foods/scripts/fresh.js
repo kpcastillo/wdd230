@@ -7,6 +7,7 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
+//API URL
 const url = "https://brotherblazzard.github.io/canvas-content/fruit.json"
 
 const fName = document.querySelector('#f-name')
