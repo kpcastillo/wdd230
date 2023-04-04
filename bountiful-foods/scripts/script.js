@@ -61,3 +61,7 @@ function weatherCard(data){
 
 }
 weatherFetch()
+
+// Display Order
+let orders = window.sessionStorage.getItem('form');
+console.log(orders, 'Orders');

@@ -29,4 +29,8 @@
     #about-main h4{
         font-size: 2em;
     }
+    #fresh-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
 }

@@ -273,10 +273,11 @@ h4{
 }
 form{
   background-color: #C6D175;
-  width: 50%;
+ max-width: 410px;
   justify-content: end;
   font-family: Monserrat, arial;
   color: #3B4422;
+  margin-bottom: 2em;
 }
 form fieldset{
   border: #DAA373 solid 2px;
@@ -290,16 +291,23 @@ form legend{
 }
 form label{
   display: block;
-  padding-top: 0.8em;
+  padding: 0.8em;
 }
 form .label{
   display: block;
-  padding: 0.8em;
+  padding: 0.9em;
   width: 100%;
   max-width: 20rem;
 }
 form label input:required{
   border-left: #3B4422 solid 5px;
+}
+
+#fresh-grid img{
+  width: 100%;
+}
+#form-output{
+  padding: 1em;
 }
 /* Footer */
 footer{

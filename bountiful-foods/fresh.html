@@ -26,29 +26,30 @@
         </a>
     </header>
     <main>
-        <!--three (3) select element inputs that are populated with the available fruit to put into a drink.
-    Populate all three select elements with all of the available fruits.
-    Available fruit options must only come from this JSON data source for full credit consideration: Fruit Data Links to an external site.
-    and, include an area that allows them to add special instructions, if needed.
+        <!--
     Do NOT send the form to a new page upon form submission. Instead, use a JavaScript event handler to produce a formatted output area on this same page showing:
     the input values of the order (7 inputs = first name, email, phone, three selected fruits, and special instructions),
     the order date, and
     the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three fruit choices selected on the form. The data source provides that information per fruit.-->
     <div class="form-image">
-        <form method="get" action="">
+        <form>
             <fieldset>
                 <legend>Make Your Drink Now</legend>
-                <label>First Name*<input class="label" type="text" name="fname" required></label>
-                <label>Email*<input class="label" type="email" name="email" placeholder="youremail@mail.com" required></label>
-                <label>Cell Phone<input class="label" type="tel" name="phone" placeholder="1231231234"></label>
-                <label>Select your fruit<select id="fruit-selector"></select></label>
-                <label>Select your fruit<select></select></label>
-                <label>Select your fruit<select></select></label>
-                <label>Special Instructions<input class="label" type="text" name="instructios"></label>
-                <label id="formdate">Date<input class="label" type="date" name="completedate"></label>
+                <label>First Name*<input id="f-name"class="label" type="text" name="fname" required></label>
+                <label>Email*<input id="f-email" class="label" type="email" name="email" placeholder="youremail@mail.com" required></label>
+                <label>Cell Phone<input id="f-phone" class="label" type="tel" name="phone" placeholder="1231231234"></label>
+                <label>Select your fruit <select id="fruit-selector"></select></label>
+                <label>Select your fruit <select id="fruit-selector-two"></select></label>
+                <label>Select your fruit <select id="fruit-selector-three"></select></label>
+                <label>Special Instructions<input id="f-instruct" class="label" type="text" name="instructios"></label>
+                <label id="formdate">Date<input id="f-date" class="label" type="date" name="completedate"></label>
             </fieldset>
-            <input type="submit" class="button" value="Order">
+            <input type="submit" id="submit-order" class="button" value="Order">
         </form>
+    </div>
+    <div id="fresh-grid">
+        <img src="images/mix.png" alt="Fruits" loading="lazy">
+        <div id="form-output"></div>
     </div>
     </main>
     <footer>
@@ -62,6 +63,7 @@
             <a href="https://www.linkedin.com">
                 <img src="images/li.png" alt="Linked In">
             </a>
+        </div>
     </footer>
     <script src="scripts/fresh.js"></script>
 </body>
