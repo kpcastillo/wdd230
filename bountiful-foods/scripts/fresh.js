@@ -50,14 +50,33 @@ function displaySelector(fruitList){
         fruitSelectorThree.appendChild(optionThree)
     };
 }
+const button = document.querySelector('#submit-order')
+const orderDisplay = document.querySelector('#order')
+button.addEventListener('click', function() { 
+    const newItem = input.value
+    if(newItem != ''){
+        input.value = '';
 
+        const liElement = document.createElement('li');
+        liElement.textContent = newItem;
+        //list.appendChild(liElement);
+        orderDisplay.appendChild(liElement);
+
+        input.focus();
+    }
+    
+
+});
 const data = {};
+const form = document.querySelector('#form')
 
 formOutput.addEventListener('submit', (event) => {
 
     event.preventDefault();
 
-    const formData = new FormData(event.target);
+   const formData = new FormData(event.target);
+    //const formData = new FormData(form);
+    console.log(formData, 'Form Data')
   
     for (let [key, value] of formData.entries()) {
         data[key] = value;
@@ -108,4 +127,3 @@ function formDataOutput(){
 
 }
 formDataOutput()
-
